@@ -93,7 +93,38 @@
                     <li>One on one personal guide</li>
                 </ul>
             </article>
-
+      </section>
+      <!--Contact or sign up form-->
+      <section aria-labelledby="contact">
+        <h2 id="contact">Sign Up Here!</h2>
+        <form action="submit">
+            <label for="fname">First Name</label>
+            <input type="text" required> 
+            <label for="lname">Last Name</label>
+            <input type="text" required> <br>
+            <label for="phone">Telephone No:</label>
+            <input type="tel" placeholder="Enter your number here"> <br>
+            <label for="option" class="option">
+                <input type="radio" required value=Male" name="gender" >Male
+            </label>
+            <label for="option" class="option">
+                <input type="radio" required value=Female" name="gender" >Female
+            </label> <br>
+            <label for="email">Email:</label>
+            <input type="email" > <br>
+            <label for="password">Password:</label>
+            <input type="password" required> <br>
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="">-- Select an option --</option>
+                <option value="option1">Full Workout Session</option>
+                <option value="option2">Morning Session</option>
+                <option value="option3">Evening Session</option>
+            </select> <br>
+             <label for="submit">Submit
+                <input type="submit" id="submit" name="submit">
+            </label>
+        </form>
       </section>
     </main>
   </body>
